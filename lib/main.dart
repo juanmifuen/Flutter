@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 
 void main() {
-  runApp(HotelBookingApp());
+  runApp(HotelBookingApp());//HotelBookingApp
 }
 
 class HotelBookingApp extends StatelessWidget {
@@ -11,7 +11,7 @@ class HotelBookingApp extends StatelessWidget {
     return MaterialApp(
       title: 'Hotel Booking App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginScreen(), // 👈 Aquí usamos LoginScreen como pantalla principal
+      home: LoginScreen(), 
     );
   }
 }
